@@ -1,0 +1,47 @@
+.SelectedPotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background: rgba(40, 40, 40, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.SelectedPotion__header {
+    color: #f5f5f5;
+    margin-bottom: 1.5rem;
+}
+
+.SelectedPotion__actions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.SelectedPotion__actions button {
+    border: 1px solid #8b4513;
+    background-color: #8b4513;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.SelectedPotion__actions button:hover {
+    background-color: black;
+}
+
+.SelectedPotion__actions button:active {
+    transform: scale(0.9);
+}

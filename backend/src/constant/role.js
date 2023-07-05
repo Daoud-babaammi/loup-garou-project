@@ -1,0 +1,1 @@
+exports.rolesDefault = ["Sorciere", "LoupGarou", "Villageois1", "Voyante", "villageois2", "Cupidon", "Chasseur", "villageois3"]

@@ -1,0 +1,37 @@
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .Card p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .Card__roleImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .Card button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #bc7b35; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+  }
+  

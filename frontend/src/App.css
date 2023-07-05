@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: url('./loupGarouBachground.png');
+  background-size: cover;
+}
+
+/*
+.Game {
+  color : red;
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  position: "fixed";
+   bottom: "0px";
+   left: "0px";
+}
+
+.roleImage{
+  width: 150px;
+  height: 150px;
+  position: "fixed";
+   bottom: "0px";
+   left: "0px";
+   display: 'flex';
+   justify-content: "center";
+   align-items: "center";
+}
+*/

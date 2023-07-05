@@ -1,8 +1,15 @@
-export const createUser = async(username) => {
-    const data = await fetch("http://localhost:8000/user/game", {
-        method: "POST",
-        body: JSON.parse({username})
-    })
+export const loginGame = async(body) => {
+    console.log(body)
 
-    return await data.json();
+    const data = await fetch('http://localhost:3001/game/login', {
+        method: "POST",
+        headers:{
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(body)
+    });
+
+    const json = await data.json();
+
+    return json;
 }

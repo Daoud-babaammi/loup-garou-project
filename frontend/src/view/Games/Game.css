@@ -1,0 +1,35 @@
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #8b4513;
+}
+
+.resultWrapper {
+    max-width: 95vw;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid #8b4513;
+    padding: 40px;
+    border-radius: 10px;
+    background: rgba(40, 40, 40, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.resultWrapper h1 {
+    color: #f5f5f5;
+    font-family: 'Gothic', sans-serif;
+    margin-bottom: 20px;
+}
+
+.revealedRole {
+    color: #f5f5f5;
+    font-family: 'Gothic', sans-serif;
+    font-size: 1.2rem;
+}

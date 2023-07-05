@@ -1,0 +1,93 @@
+.salleAttend {
+    position: absolute;
+    border: 3px solid #8b4513;
+    width: 500px;
+    max-width: 95vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(40, 40, 40, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.salleAttend__header {
+    border-bottom: 2px solid #8b4513;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gothic', sans-serif;
+    margin-bottom: 10px;
+}
+
+.salleAttend__listUser li {
+    border-bottom: 2px solid #8b4513;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.CardAttend__image img {
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.CardAttend__title p {
+    font-family: 'Gothic', sans-serif;
+    font-size: 1.2em;
+}
+
+.salleAttend__startGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+}
+
+.salleAttend__startGame > div {
+    margin: auto;
+}
+
+.salleAttend__startGame button {
+    height: 80%;
+    max-width: 60vw;
+    width: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #8b4513, #5a3510);
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Gothic', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.salleAttend__startGame button:hover {
+    background: linear-gradient(to bottom, #5a3510, #8b4513);
+}
+
+.salleAttend p {
+    font-family: 'Gothic', sans-serif;
+    color: #f5f5f5;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+
+.CardAttend__title p {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.salleAttend__startGame > div p {
+    font-size: 0.9em;
+    color: #aaa;
+}

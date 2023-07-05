@@ -1,0 +1,56 @@
+.SelectedZone {
+    max-width: 95vw;
+    width: 600px;
+    border: 3px solid #8b4513;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(40, 40, 40, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.SelectedZone__header {
+    margin: 1rem;
+    text-align: center;
+    color: #f5f5f5;
+    font-family: 'Gothic', sans-serif;
+}
+
+.SelectedZone__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.SelectedZone__action {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.SelectedZone__action button {
+    border: 2px solid #f5f5f5;
+    width: 150px;
+    max-width: 60vw;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #8b4513, #5a3510);
+    color: #f5f5f5;
+    font-weight: bold;
+    font-family: 'Gothic', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.SelectedZone__action button:hover {
+    background: linear-gradient(to bottom, #5a3510, #8b4513);
+}
