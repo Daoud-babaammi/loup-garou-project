@@ -18,8 +18,12 @@ yarn
 To run the project, you need to build it and start it.
 
 ```bash
-yarn build
-yarn start
+#run fornt end
+yarn front build
+yarn front start
+
+#run back end
+yarn backend start
 ```
 
 ## Base structure
