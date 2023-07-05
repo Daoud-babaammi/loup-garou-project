@@ -12,6 +12,8 @@ Use yarn to install dependecies.
 
 ```bash
 yarn
+yarn front install
+yarn backend install
 ```
 
 ## Usage
